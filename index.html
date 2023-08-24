@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  
+</head>
+
+<body>
+
+  <a class="a-cont" href="contact.html">
+    <h2 class="h2-contact">Contact Us</h2>
+  </a>
+
+  <div class="container2">
+
+
+    <div class="child-1">
+      <div class="ch-1">
+
+        <form id="frm">
+          <label for="ph-inp" class="inp">Enter your mobile number : </label>
+          <select id="countryDropdown" class="drop-d">
+          </select>
+          <input type="text" name="mob" id="ph-inp" placeholder="e.g. 6248753265"
+            onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="10">
+          <button class="submit" href="result.html">Submit</button>
+          
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div id="fetch-content">
+  
+    <div class="result1">
+      <h2 class="res-out"> </h2>
+      <h2 class="res-out"> </h2>
+      <h2 class="res-out"> </h2>
+      <h2 class="res-out"> </h2>
+    </div>
+
+  </div>
+  <div id="map"></div>
+
+  <!-- <div class="result2"> -->
+   
+  <!-- </div> -->
+
+  <!-- <div class="result2"> -->
+  <!-- <div id="map" style="width: 50%; height: 400px;"></div> -->
+  <!-- </div> -->
+  <!-- <button class="map-btn"><a href="map.html">Map</a></button> -->
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="bundle.js" theme="dark" position="bottom-right"></script>
+
+
+</body>
+
+</html>

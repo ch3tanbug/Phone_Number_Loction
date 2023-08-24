@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+}
+
+body{
+  background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url(images/what-is-a-hacker-what-is-hacking-featured.webp);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+/* Home page styling */
+
+.container2 {
+  
+  height:400px;
+  width: 660px;
+  /* background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url(images/what-is-a-hacker-what-is-hacking-featured.webp);
+  background-size: cover; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  left:50%;
+  top:50%;
+  transform: translate(-40%,-50%);
+
+}
+
+.child-1 {
+  height: 400px;
+  width: 600px;
+  color: black;
+
+  /* background-color: white; */
+
+  /* opacity: 0.5; */
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+
+}
+
+.inp {
+  color: white;
+  display: block;
+  margin: 20px 77px;
+  font-size: 30px;
+
+}
+
+#ph-inp {
+  height: 35px;
+  width: 400px;
+  border-radius: 15px;
+  padding: 0 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  border: 3px solid #a8f5a8;
+}
+
+.drop-d {
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  border: 3px solid #a8f5a8;
+}
+
+.submit {
+  height: 35px;
+  width: 200px;
+  border-radius: 15px;
+  padding: 0 10px;
+  font-size: 15px;
+  margin: 20px;
+  margin-left: 125px;
+  border: 3px solid #a8f5a8;
+}
+
+.submit:hover {
+  background-color: #90EE90;
+}
+
+.h2-contact {
+  color: white;
+  
+}
+
+.a-cont {
+  text-decoration: none;
+  display:block;
+  width:150px;
+  position:relative;
+  left: 1150px;
+  top: 35px;
+}
+
+.h2-contact:hover {
+  color: #a8f5a8;
+}
+
+
+
+/* Contact us page styling  from here*/
+
+.contact-body {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url(images/what-is-a-hacker-what-is-hacking-featured.webp);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  width: 400px;
+  /* border: 5px solid rgb(54, 52, 52); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: white;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 6px;
+
+}
+
+button[type=button] {
+  width: 200px;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  border: 2px solid #00ffdd;
+  border-radius: 25px;
+  cursor: pointer;
+
+
+
+}
+
+button[type=button]:hover {
+  background-color: #00ffdd;
+}
+
+.contact-child-1 {
+  color: white;
+  height: 480px;
+  width: 380px;
+  /* background-color: aqua; */
+
+}
+
+.call-us {
+  position: relative;
+  left: 10px;
+  top: 25px;
+}
+
+.location {
+  position: relative;
+  left: 10px;
+  top: 50px;
+}
+
+.email {
+  position: relative;
+  left: 10px;
+  top: 75px;
+}
+
+.num {
+  margin: 4px 0 0 32px;
+}
+
+.loc {
+  margin: 4px 0 0 32px;
+}
+
+.g-mail {
+  margin: 4px 0 0 32px;
+}
+
+.submit1 {
+  height: 35px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 3px solid #a8f5a8;
+  color: white;
+}
+
+.submit1:hover {
+  background-color: #a8f5a8;
+}
+
+#message {
+  border-radius: 25px;
+}
+
+#mail {
+  border-radius: 25px;
+}
+
+#lname {
+  border-radius: 25px;
+}
+
+#fname {
+  border-radius: 25px;
+}
+
+#fetch-content{
+
+  color:white;
+  height:500px;
+  display:none;
+ 
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.result1{
+    width: 600px;
+    height: 325px;
+    display: none;
+    border:5px solid #a8f5a8;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    margin-left: 40px;
+  
+}
+
+
+
+#map{
+  visibility:visible;
+  margin:0 0 60px 0;
+  width: 600px;
+  height: 125px;
+  border-radius: 10px;
+  left: 670px;
+  bottom: 413px;
+}
+
+
+
+/* .res-out{
+    margin: 0px 20px 45px 150px;
+} */
