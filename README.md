@@ -32,11 +32,11 @@ Before you begin, ensure you have met the following requirements:
 1. Clone this GitHub repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/phone-number-lookup.git
+   https://github.com/ch3tanbug/Phone_Number_Loction.git``
    
 2. Navigate to the project directory:
    ```bash
-   cd phone-number-lookup```
+   cd Phone_Number_Loction```
    
 3. ```bash
    npm install``
